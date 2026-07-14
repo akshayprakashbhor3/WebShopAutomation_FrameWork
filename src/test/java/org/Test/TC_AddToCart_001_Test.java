@@ -1,6 +1,7 @@
 package org.Test;
 
 import org.GenricLibary.BaseTest;
+import org.GenricLibary.Flib;
 import org.POMrepository.BAsePage;
 import org.POMrepository.CellPhonePage;
 import org.POMrepository.ElectronicsPage;
@@ -23,7 +24,7 @@ public class TC_AddToCart_001_Test extends BaseTest {
 		sa.assertEquals(cellPhone.getProductaddedtocart().isDisplayed(), true, "Rpoduct added to cart");
 		
 		sa.assertAll();
-		
+	
 		
 	}
 
